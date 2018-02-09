@@ -38,4 +38,16 @@
       </plugin>
     </plugins>
   </build>
+
+  <distributionManagement>
+    <snapshotRepository>
+      <id>nexus-snapshots</id>
+      <url>http://13.58.5.141:8081/repository/akhil-maven1/</url>
+    </snapshotRepository>
+    <repository>
+      <id>nexus-releases</id>
+      <url>http://13.58.5.141:8081/repository/akhil-maven2-release/</url>
+    </repository>
+  </distributionManagement>
+
 </project>
